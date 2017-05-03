@@ -1,0 +1,21 @@
+Source: go-app-package
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: mutse <mutse@yyhoo2.young@gmail>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-go
+Standards-Version: 3.9.6
+Homepage: https://github.com/mutse/go-app-package
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/go-app-package.git
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/go-app-package.git
+XS-Go-Import-Path: github.com/mutse/go-app-package
+
+Package: go-app-package
+Architecture: any
+Built-Using: ${misc:Built-Using}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: How to package golang app
+ go-app-package How to package golang app

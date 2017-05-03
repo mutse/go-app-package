@@ -19,4 +19,3 @@ Generate debian package with dh-make-golang command:
     $ sendmail -t < itp-go-app-package.txt
     $ cd go-app-package
     $ debuild
-

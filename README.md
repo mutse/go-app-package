@@ -19,4 +19,3 @@ dependencies:
     $ sendmail -t < itp-go-app-package.txt
     $ cd go-app-package
     $ debuild
-

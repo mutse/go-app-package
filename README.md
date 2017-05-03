@@ -11,9 +11,9 @@ dependencies:
 
 ## How to packaging
 
-1. You should first create a golang app repo in [github.com/mutse/go-app-package](https://github.com/mutse/go-app-package)
+You should first create a golang app repo in [github.com/mutse/go-app-package](https://github.com/mutse/go-app-package)
 
-2. Generate debian package with dh-make-golang command:
+Generate debian package with dh-make-golang command:
 
     $ dh-make-golang github.com/mutse/go-app-package
     $ sendmail -t < itp-go-app-package.txt
